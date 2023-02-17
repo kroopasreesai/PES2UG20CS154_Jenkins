@@ -5,6 +5,7 @@ pipeline {
         stage('Build') {
             steps {
                 sh 'g++ -o PES2UG20CS154-1 hello.cpp'
+                nmnb
             }
         }
 
